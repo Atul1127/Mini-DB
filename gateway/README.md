@@ -18,12 +18,12 @@ The gateway is exposed on `http://localhost:8080` and the native C++ API remains
 
 ## Demo users
 
-This portfolio implementation uses a small in-memory user list instead of a user database.
+This portfolio implementation uses a small in-memory user list instead of a user database. All demo users use the same password from `DEMO_PASSWORD` (default: `demo123`).
 
 ```text
-atul / atul123       -> ADMIN
-writer / writer123   -> WRITER
-reader / reader123   -> READER
+atul   -> ADMIN
+writer -> WRITER
+reader -> READER
 ```
 
 Get a token:
@@ -31,9 +31,9 @@ Get a token:
 ```bash
 curl -X POST http://localhost:8080/auth/token \
   -H 'Content-Type: application/json' \
-  -d '{"username":"atul","password":"atul123"}'
+  -d '{"username":"atul","password":"demo123"}'
 ```
 
 Use the returned token as `Authorization: Bearer <token>`.
 
-> This is a learning/portfolio implementation. Production authentication should use a proper identity provider and secure secret management.
+> This is a learning/portfolio implementation. Production authentication should use a proper identity provider, hashed credentials, and secure secret management.
