@@ -1,0 +1,10 @@
+.git/
+.github/
+.vscode/
+.idea/
+build/
+cmake-build-*/
+logs/
+data/
+*.log
+*.tmp
