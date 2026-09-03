@@ -17,7 +17,6 @@ set(MINI_DB_ENGINE_SOURCES
     src/QueryParser.cpp
     src/Logger.cpp
     src/ApiServer.cpp
-    src/Auth.cpp
 )
 
 add_executable(mini-db
