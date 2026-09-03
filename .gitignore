@@ -1,0 +1,33 @@
+# CMake / build artifacts
+build/
+cmake-build-*/
+CMakeCache.txt
+CMakeFiles/
+CTestTestfile.cmake
+Makefile
+install_manifest.txt
+compile_commands.json
+
+# Runtime data and logs
+logs/*.log
+data/*.schema
+data/*.data
+
+# IDE / editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Python cache / local environments
+gateway/__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local environment files
+.env
+.env.*
+!.env.example
