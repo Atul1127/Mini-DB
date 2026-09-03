@@ -1,0 +1,92 @@
+[2026-06-20 22:09:21.815786] [INFO] Startup load completed.
+[2026-06-20 22:09:21.815850] [INFO] Query: CREATE TABLE log_users (id INT, name STRING);
+[2026-06-20 22:09:21.815921] [INFO] Success: Table 'log_users' created successfully.
+[2026-06-20 22:09:21.815927] [PERF] Execution time: 64 us
+[2026-06-20 22:09:21.815934] [INFO] Query: INSERT INTO log_users VALUES (1, "Naitik");
+[2026-06-20 22:09:21.816033] [INFO] Success: Row inserted into 'log_users'.
+[2026-06-20 22:09:21.816039] [PERF] Execution time: 94 us
+[2026-06-20 22:09:21.816045] [INFO] Query: INSERT INTO log_users VALUES ("bad", "Naitik");
+[2026-06-20 22:09:21.816057] [ERROR] Failure: Error: Type mismatch for column 'id'. Expected INT.
+[2026-06-20 22:09:21.816061] [PERF] Execution time: 8 us
+[2026-06-20 22:09:21.816066] [INFO] Query: SELECT * FROM log_users;
+[2026-06-20 22:09:21.816074] [INFO] Success: Selected 1 row(s) from 'log_users'.
+[2026-06-20 22:09:21.816078] [PERF] Execution time: 4 us
+[2026-06-20 22:09:21.816085] [INFO] Query: DROP TABLE log_users;
+[2026-06-20 22:09:21.816122] [INFO] Success: Table 'log_users' dropped successfully.
+[2026-06-20 22:09:21.816126] [PERF] Execution time: 32 us
+[2026-06-21 10:44:39.381149] [INFO] Startup load completed.
+[2026-06-21 10:44:39.381749] [INFO] Query: SHOW TABLES;
+[2026-06-21 10:44:39.381791] [INFO] Success: No tables found.
+[2026-06-21 10:44:39.381805] [PERF] Execution time: 22 us
+[2026-06-21 11:19:50.996963] [INFO] Startup load completed.
+[2026-06-21 11:19:50.997020] [INFO] Query: SHOW TABLES;
+[2026-06-21 11:19:50.997035] [INFO] Success: No tables found.
+[2026-06-21 11:19:50.997040] [PERF] Execution time: 11 us
+[2026-06-21 11:29:27.796554] [INFO] Startup load completed.
+[2026-06-21 11:29:27.796626] [INFO] Query: SHOW TABLES;
+[2026-06-21 11:29:27.796645] [INFO] Success: No tables found.
+[2026-06-21 11:29:27.796649] [PERF] Execution time: 14 us
+[2026-06-21 11:37:14.876292] [INFO] Startup load completed.
+[2026-06-21 11:37:14.876412] [INFO] Query: SHOW TABLES;
+[2026-06-21 11:37:14.876444] [INFO] Success: No tables found.
+[2026-06-21 11:37:14.876455] [PERF] Execution time: 19 us
+[2026-06-21 11:38:55.459503] [INFO] Startup load completed.
+[2026-06-21 11:38:55.459554] [INFO] Query: SHOW TABLES;
+[2026-06-21 11:38:55.459570] [INFO] Success: No tables found.
+[2026-06-21 11:38:55.459576] [PERF] Execution time: 10 us
+[2026-06-21 11:44:30.877570] [INFO] Startup load completed.
+[2026-06-21 11:44:30.877631] [INFO] Query: SHOW TABLES;
+[2026-06-21 11:44:30.877648] [INFO] Success: No tables found.
+[2026-06-21 11:44:30.877652] [PERF] Execution time: 10 us
+[2026-06-21 11:45:45.103873] [INFO] Startup load completed.
+[2026-06-21 11:45:45.103980] [INFO] Query: SHOW TABLES;
+[2026-06-21 11:45:45.104011] [INFO] Success: No tables found.
+[2026-06-21 11:45:45.104024] [PERF] Execution time: 18 us
+[2026-06-21 11:46:52.251999] [INFO] Startup load completed.
+[2026-06-21 11:46:52.252117] [INFO] Query: SHOW TABLES;
+[2026-06-21 11:46:52.252154] [INFO] Success: No tables found.
+[2026-06-21 11:46:52.252172] [PERF] Execution time: 22 us
+[2026-06-21 11:55:52.806416] [INFO] Startup load completed.
+[2026-06-21 11:55:52.806539] [INFO] Query: SHOW TABLES;
+[2026-06-21 11:55:52.806569] [INFO] Success: No tables found.
+[2026-06-21 11:55:52.806573] [PERF] Execution time: 17 us
+[2026-06-21 11:57:39.292324] [INFO] Startup load completed.
+[2026-06-21 11:57:39.292451] [INFO] Query: SHOW TABLES;
+[2026-06-21 11:57:39.292485] [INFO] Success: No tables found.
+[2026-06-21 11:57:39.292498] [PERF] Execution time: 21 us
+[2026-06-21 10:00:00.000001] [INFO] api-smoke marker start
+[2026-06-21 10:00:00.000050] [PERF] Execution time: 50 us
+[2026-06-21 12:32:27.247135] [INFO] Startup load completed.
+[2026-06-21 12:32:27.247264] [INFO] Query: SHOW TABLES;
+[2026-06-21 12:32:27.247296] [INFO] Success: No tables found.
+[2026-06-21 12:32:27.247304] [PERF] Execution time: 21 us
+[2026-06-21 10:00:00.000001] [INFO] api-smoke marker start
+[2026-06-21 10:00:00.000050] [PERF] Execution time: 50 us
+[2026-06-21 12:34:30.959374] [INFO] Startup load completed.
+[2026-06-21 12:34:30.959554] [INFO] Query: SHOW TABLES;
+[2026-06-21 12:34:30.959614] [INFO] Success: No tables found.
+[2026-06-21 12:34:30.959624] [PERF] Execution time: 25 us
+[2026-06-21 10:00:00.000001] [INFO] api-smoke marker start
+[2026-06-21 10:00:00.000050] [PERF] Execution time: 50 us
+[2026-06-21 17:15:40.235171] [INFO] Startup load completed.
+[2026-06-21 17:15:40.235233] [INFO] Query: SHOW TABLES;
+[2026-06-21 17:15:40.235250] [INFO] Success: No tables found.
+[2026-06-21 17:15:40.235255] [PERF] Execution time: 11 us
+[2026-06-21 10:00:00.000001] [INFO] api-smoke marker start
+[2026-06-21 10:00:00.000050] [PERF] Execution time: 50 us
+[2026-06-21 17:18:00.417973] [INFO] Startup load completed.
+[2026-06-21 17:18:00.418052] [INFO] Query: SHOW TABLES;
+[2026-06-21 17:18:00.418073] [INFO] Success: No tables found.
+[2026-06-21 17:18:00.418079] [PERF] Execution time: 13 us
+[2026-06-21 10:00:00.000001] [INFO] api-smoke marker start
+[2026-06-21 10:00:00.000050] [PERF] Execution time: 50 us
+[2026-06-21 17:20:53.080581] [INFO] Startup load completed.
+[2026-06-21 17:20:53.080652] [INFO] Query: SHOW TABLES;
+[2026-06-21 17:20:53.080669] [INFO] Success: No tables found.
+[2026-06-21 17:20:53.080673] [PERF] Execution time: 11 us
+[2026-06-21 10:00:00.000001] [INFO] api-smoke marker start
+[2026-06-21 10:00:00.000050] [PERF] Execution time: 50 us
+[2026-06-30 12:55:45.089019] [INFO] Startup load completed.
+[2026-06-21 10:00:00.000001] [INFO] api-smoke marker start
+[2026-06-21 10:00:00.000050] [PERF] Execution time: 50 us
+[2026-06-30 13:15:23.173328] [INFO] API startup load completed.
